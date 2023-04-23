@@ -1,0 +1,54 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+.main {
+min-height: 100vh;
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.col {
+    display: flex;
+  }
+
+.cell {
+width: 89px;
+height: 89px;
+border: 1px solid lightgray;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: xxx-large;
+text-transform: capitalize;
+cursor: pointer;
+color: rgb(20, 16, 16);
+font-weight: 900;
+}
+
+.select-button {
+  width: 90px;
+  height: 40px;
+  margin-right: 50px;
+}
+
+.disabledCell {
+    width: 89px;
+    height: 89px;
+    border: 1px solid lightgray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: rgb(20, 16, 16);
+    font-weight: 900;
+    pointer-events: none;
+    }
+
